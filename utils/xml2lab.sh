@@ -17,6 +17,7 @@ path_dir_table="./dic/sinsy/"
 
 # lab ファイルを掃除する
 rm -f $path_dir_lab/*
+rm -f $path_uttlist
 # 一時フォルダを作る
 mkdir $path_temp_dir
 
