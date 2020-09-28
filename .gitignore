@@ -4,4 +4,4 @@ exp
 outputs
 *.lab
 *.wav
-*/utt_list.txt
+utt_list.txt

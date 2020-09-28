@@ -11,7 +11,7 @@ Singing-voice model of [ONIKU_KURUMI_UTAGOE_DB](http://onikuru.info/db-download/
 ### 音声合成モデルとしての利用規約
 
 - 御丹宮くるみ歌声データベースの利用規約に従ってご利用ください。
-- 本歌声モデル利用時は「VSinger御丹宮くるみ」の音声であることを明示してください。
+- 本歌声モデル利用時は「VSinger 御丹宮くるみ」の音声であることを明示してください。
 
 ### OSSとしての利用規約
 
@@ -21,6 +21,10 @@ Singing-voice model of [ONIKU_KURUMI_UTAGOE_DB](http://onikuru.info/db-download/
 
 1. musicxml または xml を **00_musicxml** に入れる。
 2. **sing.bat** をダブルクリックする。
+
+
+
+＼ボカロを聴いて！／
 
 ![おにくる立ち絵](http://onikuru.info/wp-content/themes/KurumiHP/Resource/onikuru_thumb.png)
 
