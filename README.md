@@ -24,6 +24,8 @@ Singing-voice model of [ONIKU_KURUMI_UTAGOE_DB](http://onikuru.info/db-download/
 
 
 
+
+
 ＼ボカロを聴いて！／
 
 ![おにくる立ち絵](http://onikuru.info/wp-content/themes/KurumiHP/Resource/onikuru_thumb.png)
