@@ -1,0 +1,7 @@
+install_success_message
+dump
+exp
+outputs
+*.lab
+*.wav
+*/utt_list.txt
