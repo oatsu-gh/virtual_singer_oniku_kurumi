@@ -1,7 +1,7 @@
-install_success_message
 dump
 exp
 outputs
+release
 *.lab
 *.wav
 utt_list.txt
