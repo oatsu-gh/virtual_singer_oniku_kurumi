@@ -1,4 +1,4 @@
-# Virtual Singer Oniku Kurumi (NNSVS)
+# virtual singer oniku kurumi (NNSVS)
 
 [御丹宮くるみ歌声データべース](http://onikuru.info/db-download/) を学習させた [NNSVS](https://github.com/r9y9/nnsvs) 用歌声モデル
 
@@ -19,8 +19,9 @@ Singing-voice model of [ONIKU_KURUMI_UTAGOE_DB](http://onikuru.info/db-download/
 
 ## 使い方
 
-1. musicxml または xml を **00_musicxml** に入れる。
-2. **sing.bat** をダブルクリックする。
+1. model_000 のようなフォルダ選んでダブルクリックする。
+2. musicxml または xml を **00_musicxml** に入れる。
+3. **sing.bat** をダブルクリックする。
 
 
 
