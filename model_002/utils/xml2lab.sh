@@ -7,17 +7,19 @@ PATH="$HOME/.local/:$PATH"
 # pysinsyがSinsyにアクセスできるようにする
 export LD_LIBRARY_PATH=/usr/local/lib/
 # pathに日本語が含まれるとSinsyがエラーを出すので、一時フォルダを使って回避する。
-path_temp_dir=$HOME/temp_nnsvs/
+path_temp_dir=$HOME/temp_nnsvs
 
 # 入出力するフォルダ
-path_dir_xml="./00_musicxml/"
-path_dir_lab="./01_lab/"
+path_dir_xml="./00_musicxml"
+path_dir_lab="./01_lab"
 path_uttlist="./02_uttlist/utt_list.txt"
-path_dir_table="./dic/sinsy/"
+path_dir_table="./dic/sinsy"
 
-# lab ファイルを掃除する
+# 古いファイルを掃除する
+rm -rf $path_temp_dir
 rm -f $path_dir_lab/*
 rm -f $path_uttlist
+
 # 一時フォルダを作る
 mkdir $path_temp_dir
 
