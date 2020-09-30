@@ -19,7 +19,7 @@ Singing-voice model of [ONIKU_KURUMI_UTAGOE_DB](http://onikuru.info/db-download/
 
 ## 使い方
 
-1. model_000 のようなフォルダ選んでダブルクリックする。
+1. v_onikuru_123 のようなフォルダ選んでダブルクリックする。
 2. musicxml または xml を **00_musicxml** に入れる。
 3. **sing.bat** をダブルクリックする。
 
