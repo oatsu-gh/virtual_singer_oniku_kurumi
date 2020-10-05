@@ -9,19 +9,23 @@ PATH="$HOME/.local/bin:$PATH"
 script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
 . $script_dir/utils/yaml_parser.sh || exit 1;
 
+# 設定を展開し、変数として記憶する
 eval $(parse_yaml "./config.yaml" "config_")
 
 dump_norm_dir=dump/$config_spk/norm
 
 . $config_nnsvs_root/utils/parse_options.sh || exit 1;
 
-# exp name
+# exp name / 音声モデルを判別するための名前
 if [ -z ${config_tag:=} ]; then
     expname=${config_spk}
 else
     expname=${config_spk}_${config_tag}
 fi
 expdir=exp/$expname
+
+# 音声出力フォルダを作成
+mkdir -p $config_out_wav_dir
 
 # 音声ファイルを生成
 nnsvs-synthesis \

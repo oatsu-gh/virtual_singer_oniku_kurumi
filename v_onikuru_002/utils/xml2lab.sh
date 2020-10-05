@@ -12,13 +12,18 @@ path_temp_dir=$HOME/temp_nnsvs
 # 入出力するフォルダ
 path_dir_xml="./00_musicxml"
 path_dir_lab="./01_lab"
+path_dir_uttlist="./02_uttlist"
 path_uttlist="./02_uttlist/utt_list.txt"
 path_dir_table="./dic/sinsy"
+
+# 出力フォルダを作成する
+mkdir -p $path_dir_lab
+mkdir -p $path_dir_uttlist
 
 # 古いファイルを掃除する
 rm -rf $path_temp_dir
 rm -f $path_dir_lab/*
-rm -f $path_uttlist
+rm -f $path_dir_uttlist/*
 
 # 一時フォルダを作る
 mkdir $path_temp_dir
